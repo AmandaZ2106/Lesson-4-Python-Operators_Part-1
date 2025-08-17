@@ -1,0 +1,9 @@
+amount=int(input("Please enter amount to withdraw:\n"))
+Rs1000=amount//1000
+Rs100=(amount%1000)//100
+Rs50=((amount%1000)%100)//50
+Rs10=(((amount%1000)%100)%50)//10
+print("Amount of Rs1000 notes=",Rs1000)
+print("Amount of Rs100 notes=",Rs100)
+print("Amount of Rs50 notes=",Rs50)
+print("Amount of Rs10 notes=",Rs10)
